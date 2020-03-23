@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<choice>
+    <sic> testo con errore </sic>
+    <cor> testo corretto </cor>
+</choice>
+
+
+<!-- 
+MBP-di-Ilenia:Desktop ileniabeccaro$ xmllint Esercizio1.xml
+<?xml version="1.0" encoding="utf-8"?>
+<choice>
+    <sic> testo con errore </sic>
+    <cor> testo corretto </cor>
+</choice>
+-->
+<?xml version="1.0" encoding="utf-8"?>
+
+<choice>
+    <sic> testo con errore <sic>
+    <cor> testo corretto <cor>
+</choice>
+
+<!--MBP-di-Ilenia:Desktop ileniabeccaro$ xmllint Esercizio1.xml
+Esercizio1.xml:6: parser error : Opening and ending tag mismatch: cor line 5 and choice
+</choice>
+         ^
+Esercizio1.xml:6: parser error : Premature end of data in tag cor line 5
+</choice>
+         ^
+Esercizio1.xml:6: parser error : Premature end of data in tag sic line 4
+</choice>
+         ^
+Esercizio1.xml:6: parser error : Premature end of data in tag sic line 4
+</choice>
+         ^
+Esercizio1.xml:6: parser error : Premature end of data in tag choice line 3
+</choice>
+         ^
+MBP-di-Ilenia:Desktop ileniabeccaro$ xmllint Esercizio1.xml
+<?xml version="1.0" encoding="utf-8"?>
+<choice>
+    <sic> testo con errore </sic>
+    <cor> testo corretto </cor>
+</choice>
+MBP-di-Ilenia:Desktop ileniabeccaro$ -->
