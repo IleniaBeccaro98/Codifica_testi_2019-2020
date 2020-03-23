@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<text>
+    <!--Aggiunta del figlio <sic> con padre <text> -->
+    <sic> il primo xml </sic>
+    <!-- <cor> rappresenta il fratello di <sic>, sibling elements-->
+    <cor> con validazione </cor> 
+<!-- Ho cambiato </text> che indica la chiusura del tag <text> con <text/> che indica l'elemento vuoto-->
+<text/> <!--Elemento vuoto, privo di contenuto--> 
+</text> <!--Chiusura del tag padre-->
