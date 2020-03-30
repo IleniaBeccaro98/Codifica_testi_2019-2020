@@ -1,0 +1,16 @@
+<!--Filename: esercizio-dtd.dtd
+Author: Ilenia Beccaro
+Matricola: 560351
+Date: 30 marzo 2020 -->
+
+<!ELEMENT TEI (figli)> <!--elemento root di nome TEI contiene dei figli-->
+
+<!ELEMENT figli (header, facsimile ? ,text + )> <!--l'elemento figli contiene "header,facsimile,text" -->
+<!--l'elemento figli deve contenere una occorenza di header obbligatoria -->
+<!--l'elemento figli deve contenere una occorenza opzionale di facsimile -->
+<!--l'elemento figli deve contenere almeno una occorenza obbligatoria di text -->
+
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
+
