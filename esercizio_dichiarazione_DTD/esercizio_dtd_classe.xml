@@ -1,0 +1,20 @@
+<!--
+    Author: Ilenia Beccaro
+    Matricola: 560351
+    Date: 2 aprile 2020
+-->
+<? xml version="1.0" encoding="UTF-8"?>
+<!--All'interno del DOCTYPE inserisco la mia DTD-->
+<!--DTD dichiarata internamente all'interno delle parentesi quadre-->
+<!DOCTYPE radice [
+    <!ELEMENT radice (figlio)> 
+        <!ELEMENT figlio (#PCDATA)>
+]>
+
+<radice>
+    <figlio>
+        dati testuali 
+    </figlio>
+</radice>
+
+<!--abbiamo associato una DTD ad un elemento XML--> 

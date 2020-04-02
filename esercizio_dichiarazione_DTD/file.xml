@@ -1,0 +1,18 @@
+<!--
+    Author: Ilenia Beccaro
+    Matricola: 560351
+    Date: 2 aprile 2020
+-->
+
+<? xml version="1.0" encoding="UTF-8"?>
+<!--All'interno del DOCTYPE inserisco la mia DTD-->
+<!--In questo modo utilizzo il percorso di dove si trova il nostro file DTD-->
+<!DOCTYPE radice SYSTEM "./esercizio_dichiarazione_DTD/file_dtd.dtd">
+
+<radice>
+    <figlio>
+        dati testuali 
+    </figlio>
+</radice>
+
+<!--abbiamo associato una DTD ad un elemento XML--> 

@@ -1,0 +1,8 @@
+<!--
+    Author: Ilenia Beccaro
+    Matricola: 560351
+    Date: 2 aprile 2020
+-->
+<!--Dichiaro la mia DTD per poi unirla al mio file.xml-->
+<!ELEMENT radice (figlio)> <!--scrivo PCDATA se non ho figli-->
+    <!ELEMENT figlio (#PCDATA)>
