@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Author: Ilenia Beccaro
+Matricola: 560351
+Date: 02 aprile 2020 -->
+<!DOCTYPE TEI SYSTEM "./Esercizio_2aprile.dtd">
+<TEI>
+    <header type="intestazione"> 
+        inserisco contenuto header 
+    </header>
+    <facsimile source="10"> 
+        inserisco contenuto facsimile 
+    </facsimile>
+    <testo id="testo" type="desrizione"> 
+        <seg>
+            inserisco contenuto seg
+        </seg>
+            posso inserire anche contenuto PCDATA
+    </testo>
+</TEI>

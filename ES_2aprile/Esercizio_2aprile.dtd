@@ -1,0 +1,22 @@
+<!--
+Author: Ilenia Beccaro
+Matricola: 560351
+Date: 02 aprile 2020 -->
+<!ELEMENT TEI (header,facsimile?,testo+)> 
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT testo (#PCDATA|seg)*> 
+<!ELEMENT seg (#PCDATA)>
+<!--uso l'asterisco perchè indico che gli elementi possono anche non esserci-->
+<!ATTLIST header 
+    type CDATA #FIXED "intestazione"
+    lang NMTOKEN #IMPLIED
+>
+<!ATTLIST facsimile 
+    source CDATA #REQUIRED
+    ref IDREFS #IMPLIED
+>
+<!ATTLIST  testo 
+    id ID #REQUIRED
+    type CDATA #IMPLIED
+>
