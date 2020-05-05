@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI SYSTEM "tei_lite.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader> 
+        <!--metadati per il corpus-->
+        <fileDesc>
+            <titleStmt>
+                <title>Il viandante: versione elettronica</title>
+                <respStmt>
+                    <resp>Coversione TEI 5 a cura di</resp>
+                    <name>Ilenia Beccaro</name>
+                </respStmt>
+            </titleStmt>
+            <sourceDesc><bibl>
+                <title>Il viandante</title>
+                <author>Silvia e William</author>
+                <publisher>fabulinis.com</publisher>
+                <date></date>
+            </bibl></sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <head>
+            <title> Il viandante </title>
+        </head>
+        <body>
+        </body>
+        <div type="introduzione">
+            <p>C’era una volta un viandante che camminava per i boschi. Quel sentiero lo avrebbe riportato a casa dopo tanti anni trascorsi viaggiando.
+                Era sera e la stanchezza iniziava a farsi sentire. 
+                <q>“Meglio cercare un posto dove poter fermarsi a riposare e mangiare qualcosa”</q> 
+                pensò, ma di taverne o locande non ce n’era nemmeno l’ombra.</p>
+            <p>Finché, cammina cammina, vide una casetta con le luci accese. Si avvicinò: dentro c’era un bel fuocherello che ardeva scoppiettante. Bussò quindi alla porta.</p>
+        </div> 
+        <div type="svolgimento">
+            <p>Arrivò ad aprire una vecchietta che lo squadrò dalla testa ai piedi.</p>
+            <p>
+                <q>– Buonasera –</q> disse il viandante.
+                <q>– Cosa vuoi da me?! –</q>  rispose burbera la vecchietta.
+                <q>– Cerco solo un po’ di caldo ed un riparo per la notte.</q> 
+                <q>– Questa non è una locanda! E io non ospito estranei! –</q>  rispose ancora più arrabbiata la vecchietta.
+                <q>– Non essere così scontrosa, 
+                <distinct>mia signora</distinct>, non pensi che sarebbe un mondo migliore se ci aiutassimo l’un con l’altro?</q> 
+                <q>– Ah si? E chi aiuterà me? Io non ho nulla da darti, nemmeno un <distinct>tozzo</distinct> di pane…</q> 
+                <q>– Mi basta poter dormire sotto un tetto, non chiedo altro…</q>
+            </p>
+            <p>Dopo un po’ di insistenza, finalmente, la vecchietta lo fece entrare. Quando fu dentro casa, il viandante si guardò attorno: la casa era pulita, ben tenuta e con dei bei mobili e lui si accorse che la vecchietta proprio povera non doveva essere. Così le domandò:<q>– 
+                    <distinct>Mia signora</distinct>, 
+                    lo so che ho chiesto solo un letto per dormire, ma possibile che non ci sia proprio nulla da mettere sotto i denti?
+                </q> 
+                <q>– Non ho da mangiare nemmeno per me, figurati se ho qualcosa da darti…</q> 
+                <q>– Mi spiace molto per te, comunque se tu non hai nulla da dare a me, forse ho io qualcosa da dare a te.</q></p>
+            <p>La vecchietta lo guardò con aria interrogativa, così il viandante continuò.
+                <q>– Viaggiando ho imparato alcuni trucchetti per preparare delle gustose zuppe usando solo alcuni sassi.</q>
+                <q>– Solo dei sassi? –</q>chiese meravigliata la vecchietta.
+                <q>– Certo, mi basta solo una pentola piena d’acqua e un mestolo, poi al resto ci penso io.</q></p>
+            <p>La vecchietta incuriosita corse a prendere la pentola, la riempì d’acqua e la mise sul fuoco.
+                A quel punto il viandante tirò fuori dalla tasca alcuni sassolini bianchi tutti lisci e tondi, li buttò nell’acqua della pentola e cominciò a mescolare.
+                La vecchietta guardava prima il viandante e poi la pentola curiosa e incredula.
+                <q>– Sono proprio curiosa di vedere come fai a fare una zuppa con solo dei sassi –</q> disse.</p>
+            <p>Il viandante sorrise continuando a mescolare <q>– sassi di questa qualità fanno ottime zuppe, solo che stavolta non sono sicuro del risultato –</q> disse con un’aria preoccupata 
+                <q>- sai, li ho usati molte volte nei miei viaggi e penso che ormai non diano più il sapore di una volta… se avessi solo una tazza d’orzo per rendere più densa la zuppa…</q> 
+                <q>– Ora che ci penso forse un po’ di orzo dovrei averlo –</q> la vecchietta si alzò, andò alla dispensa e tornò con una tazza piena d’orzo, che il viandante versò nella pentola continuando a mescolare.</p>
+            <p>La vecchietta era sempre più incuriosita.
+                <q>– Se avessimo anche qualche patata e qualche carota, questa zuppa uscirebbe veramente buona… ma inutile pensarci –</q>  continuò il viandante.
+                <q>– Forse qualcosa in cantina dovrei avere –</q> disse la vecchietta, che si alzò e tornò con alcune patate, delle carote e anche una cipolla.</p>
+            <p>Il viandante le buttò in pentola e continuò a mischiare 
+                <q>– questa zuppa sarà proprio buona –</q> disse 
+                <q>– se ci fosse anche un pochino di carne avremmo un patto degno di una regina!</q> 
+                <q>– Degno di una regina? –</q> esclamò la vecchietta, che subito corse in dispensa e tornò con un bel pezzettino di carne tagliato a cubetti.
+                Il viandante prese e buttò nella pentola continuando a mescolare. Dopo un po’ disse che la zuppa era pronta, tolse i sassolini dalla pentola, e i due si misero a mangiare.
+                Fu una cena squisita, una delle migliori che la vecchietta avesse mai fatto.
+                <q>– Non avrei mai pensato che da dei semplici sassolini potesse uscire una zuppa così buona! –</q>  esclamò alla fine la vecchietta.
+            </p>
+            <p>Poco dopo andarono a dormire, entrambi passarono un’ottima notte, e al mattino il viandante trovò pure la colazione pronta!</p>
+        </div>
+        <div type="conclusione">
+            <p>Quando fu il momento di salutarsi, la vecchietta lo ringraziò immensamente per averle confidato il segreto della zuppa coi sassi.
+                Il viandante sorrise e le disse:
+                <q>– Basta avere qualcosa per darle un po’ di gusto!</q> 
+            </p>
+            <p>E si incamminò per il sentiero che lo avrebbe riportato a casa.</p>
+        </div>
+    </text>
+</TEI>
