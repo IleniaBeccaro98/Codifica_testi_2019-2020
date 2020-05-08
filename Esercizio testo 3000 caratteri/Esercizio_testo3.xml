@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI SYSTEM "tei_lite.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader> 
+        <!--metadati per il corpus-->
+        <fileDesc>
+            <titleStmt>
+                <title>Citazioni bibliografiche</title>
+                <respStmt>
+                    <resp>Coversione TEI 5 a cura di</resp>
+                    <name>Ilenia Beccaro</name>
+                </respStmt>
+            </titleStmt>
+            <sourceDesc><bibl>
+                <title>Citazioni bibliografiche</title>
+                <author>Francesco Dell'Orso</author>
+                <publisher>Francesco Dell'Orso</publisher>
+                <date>2007</date>
+            </bibl></sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+                <docAuthor> Francesco Dell'Orso</docAuthor>
+                <docTitle>
+                    <titlePart type="main">Citazioni bibliografiche</titlePart>
+                    <titlePart>secondo il Chicago manual of style(e con appunti 
+                    da Come si fa una tesi di laurea di Umberto Eco)</titlePart>
+                </docTitle>
+                <docImprint>
+                    <publisher>Francesco Dell'Orso</publisher>
+                    <date>2007</date>
+                </docImprint>
+        </front>
+        <div type="introduzione">
+            <p>In generale le citazioni di opere, pubblicazioni, documenti non pubblicati etc., fatte all'interno di un 
+            testo dovrebbero servire a mettere il lettore in condizione di ritrovare l'opera nei cataloghi di biblioteca 
+            e, quando è il caso, nelle bibliografie nazionali.</p>
+            <p>Anche il <orgname>CMS</orgname>riconosce che è in vigore più di un sistema di citazione per i riferimenti bibliografici, sia 
+            nel testo che, corrispondentemente, nella bibliografia finale;</p>
+        </div>
+            <list>
+            <head>  ne individua due principali e li propone come standard:</head>            
+            <item>Sistema A: "nota e bibliografia": tradizionalmente seguito nel settore umanistico e noto come "<name>ChicagoA</name>". 
+            In esso le citazioni nel testo vengono date in nota (a pié di pagina o a fine testo,<gloss>ossia fine capitolo o 
+            parte</gloss> -- <orgname>UCP</orgname> preferisce, per economia, quelle a fine testo), in fondo al lavoro segue la bibliografia. 
+            <p>Quindi nel testo, in nota, si avrà:
+            <num>15</num>. <name type="person">George Eliot</name>,<name>Middlemarch</name>, <name>Norton</name> Critical Editions (<name type="place">New York: W. W. Norton</name>, <date>1977</date>).</p>
+            <p>e nella bibliografia si avrà:
+            <name type="person">Eliot, George</name>. <name>Middlemarch</name>. <name>Norton</name> <foreign xml:lang="en">Critical Editions</foreign>.<name type="place">New York: W. W. Norton</name>, <date>1977</date>.</p></item>
+            <item>Sistema B: "citazione dentro al testo: autore-data e lista finale dei riferimenti (bibliografia)": 
+            tradizionalmente seguito nel settore delle scienze pure ed applicate e sempre più in quelle sociali ed anche, 
+            progressivamente, nel settore umanistico e noto come "<name>ChicagoB</name>". 
+            La citazione viene data come "<foreign xml:lang="en">author-date text citation</foreign>" nel testo e non in nota, in fondo al lavoro segue la 
+            lista completa dei riferimenti bibliografici; 
+            <p>quindi nel testo si avrà:
+            (<name type="person">Eliot</name> <date>1977</date>)</p>
+            <p>e nella lista finale:
+            <name type="person">Eliot, George</name>. <date>1977</date>.<name>Middlemarch</name>.<name>Norton</name> <foreign xml:lang="en">Critical Editions</foreign>.
+            <name type="place">New York: W. W. Norton.</name></p></item>
+            </list>
+        <div>
+            <p>Un altro diffuso sistema consiste nell'inserire all'interno del testo un riferimento numerico (ad es. [<num>1</num>], [<num>3</num>-<num>4</num>]),
+            che rimanda ad una lista finale, questa può essere in ordine alfabetico oppure in ordine di apparizione nel documento: 
+            UCP vi ravvisa lo svantaggio per cui ogni alterazione scardina la sequenza.</p>
+            <p>Quali le maggiori differenze fra i due sistemi prescelti? Il sistema A è quello che è stato tradizionalmente più in 
+            uso finora, mentre il B è quello che sta guadagnando terreno. Con l'A, e usando le note a pié di pagina, 
+            si vede subito, lì dove si sta leggendo, il riferimento bibliografico: non c'è bisogno di andare in fondo al testo. 
+            Ogni citazione è ripetuta, a gradi diversi di completezza, almeno due volte in un testo. La forma generale della citazione 
+            è comunemente usata, anche in contesti diversi: è leggibile da sé secondo canoni correnti.Il B alleggerisce notevolmente il testo, 
+            non ci sono citazioni in nota, la citazione è fatta una sola volta, 
+            leggendo si dà un riferimento all'opera che, agli addetti ai lavori, dovrebbe risultare perlopiù perspicuo.</p>
+            <p>Quali le differenze di stile nell'arrangiare più o meno gli stessi dati? In generale, nello A il prenome (<name type="person">Monique</name>), 
+            di un nome personale (<name type="person">Monique Streiff</name>), è dato per esteso e nel B perlopiù solo l'iniziale (M.); 
+            la data segue l'editore di un libro o il volume di un periodico, nel B la data segue subito il nome e 
+            con esso costituisce la chiave di identificazione e di ordinamento nella lista bibliografica finale; i titoli 
+            in inglese nello A hanno tutte le parole in iniziali maiuscole <ref target="#cfr.5.4.3">(<foreign xml:lang="en">headline capitalization style</foreign>, cfr. <num>5</num>.<num>4</num>.<num>3</num>)</ref>
+            mentre nel B va in maiuscolo solo l'inizio di un elemento come nome, titolo, luogo... (<foreign xml:lang="en">sentence capitalization style</foreign>). 
+            Nel B si omette spesso il sottotitolo (se non perfino l'intero titolo della parte: articolo, capitolo). 
+            Nello A gli articoli di riviste e parti di libri vanno fra virgolette, nel B no. Il B tende a favorire l'abbreviazione 
+            di nomi di editori e di riviste.</p>
+            <p>Le indicazioni che occuperanno la parte principale di questi appunti saranno quelle relative alla redazione di 
+            citazioni per la bibliografia finale, col sistema di richiamo nelle note al testo detto "<name>ChicagoA</name>", 
+            e non "autore-data" "<name>ChicagoB</name>", ma la differenza si riduce sostanzialmente solo alla posizione della data che nel 
+            <name>ChicagoB</name> segue subito l'autore e non viene più ripetuta. Queste prescrizioni costituiscono il nerbo di tutte le altre, 
+            che ne sono derivabili tenendo presenti le distinzioni comparative sopra indicate ed ancora richiamate in seguito.</p>
+        </div>
+    </text>
+</TEI>
